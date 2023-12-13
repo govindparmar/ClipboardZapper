@@ -1,0 +1,7 @@
+#include "CZ.h"
+
+CONST WCHAR g_wszClassName[] = L"GP_CLIPBOARD_ZAPPER_MO_WINDOW1";
+WCHAR *g_wszzZapList = NULL;
+#ifdef MULTITHREADING_ENABLED
+CRITICAL_SECTION g_CS;
+#endif
