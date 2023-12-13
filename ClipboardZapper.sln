@@ -5,6 +5,11 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClipboardZapper", "ClipboardZapper.vcxproj", "{0D3A0823-A8D0-4DCF-B060-71B90C148A56}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3F8B3B04-63C9-4DAC-8FBC-5FA0AFA6E2ED}"
+	ProjectSection(SolutionItems) = preProject
+		ClipboardZapper.reg = ClipboardZapper.reg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
